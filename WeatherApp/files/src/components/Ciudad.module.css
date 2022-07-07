@@ -1,0 +1,26 @@
+h2{
+    font-size: 70px;
+    text-decoration: underline;
+    margin-top: 50px;
+}
+p{
+    font-size: 15px;
+}
+.info{
+    border: none;
+    border-radius: 10px;
+    color: rgb(48, 48, 48);
+    background-color: rgba(240, 248, 255, 0.447);
+    display: inline-block;
+    text-align:center;
+    font-size: 25px;
+    width: 450px;
+    height: 300px;
+    cursor: pointer;
+    position: relative;
+    top: 70px;
+}
+.info:hover{
+    transition: .2s;
+    transform: scale(1.1)
+}
