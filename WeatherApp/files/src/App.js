@@ -53,7 +53,7 @@ function App() {
 
   return (
     <div className="App">
-
+      
       <Route exact path='/' render={() => <SearchBar onSearch={onSearch}/>}/>
 
       <Route 
